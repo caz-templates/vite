@@ -5,7 +5,7 @@
 [![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
-> A template for creating vite apps.
+> A template for creating vite-powered apps.
 
 ## Usage
 

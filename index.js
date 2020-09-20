@@ -31,7 +31,7 @@ module.exports = {
       name: 'description',
       type: 'text',
       message: 'Project description',
-      initial: 'Awesome vite apps.'
+      initial: 'Awesome vite-powered apps.'
     },
     {
       name: 'author',
