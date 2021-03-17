@@ -73,8 +73,6 @@ module.exports = {
     }
   ],
   setup: async ctx => {
-    // TODO: custom template setup hook, execute after template loaded & inquire completed.
-    console.log('setup', ctx)
     ctx.config.install = ctx.answers.install && ctx.answers.pm
   },
   complete: async ctx => {
