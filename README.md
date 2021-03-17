@@ -18,8 +18,8 @@ $ npx caz vite my-vite
 # enter generated directory
 $ cd my-vite
 
-# running test if you choose test features
-$ npm test # or `yarn test`
+# running dev command
+$ npm run dev # or `yarn dev`
 ```
 
 Or use globally installed CAZ:
@@ -34,8 +34,8 @@ $ caz vite my-vite
 # enter generated directory
 $ cd my-vite
 
-# running test if you choose test features
-$ npm test # or `yarn test`
+# running dev command
+$ npm run dev # or `yarn dev`
 ```
 
 ## Contributing

@@ -35,7 +35,7 @@ test('minimal', async () => {
   await caz(template, project, { force: true })
 
   expect(fs.existsSync(project)).toBe(true)
-  expect(fs.existsSync(path.join(project, 'index.html'))).toBe(true)
+  expect(fs.existsSync(path.join(project, 'README.md'))).toBe(true)
 })
 
 // TODO: maximal template test
@@ -61,5 +61,5 @@ test('maximal', async () => {
   await caz(template, project, { force: true })
 
   expect(fs.existsSync(project)).toBe(true)
-  expect(fs.existsSync(path.join(project, 'index.html'))).toBe(true)
+  expect(fs.existsSync(path.join(project, 'README.md'))).toBe(true)
 })

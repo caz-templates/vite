@@ -1,15 +1,33 @@
 {
   "name": "<%= name %>",
-  "version": "0.0.0",
+  "version": "<%= version %>",
+  "private": true,
+  "description": "<%= description %>",
+  "keywords": [
+    "<%= name %>",
+    "vue",
+    "vite",
+    "zce"
+  ],
+  "repository": "<%= github %>/<%= name %>",
+  "license": "MIT",
+  "author": "<%= author %> <<%= email %>> (<%= url %>)",
+  "main": "N/A",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
   },
   "dependencies": {
     "vue": "3.0.7"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "3.0.7",
-    "vite": "2.0.5"
+    "vite": "2.1.1"
   }
 }

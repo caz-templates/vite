@@ -52,17 +52,7 @@ module.exports = {
       name: 'github',
       type: 'text',
       message: 'GitHub username or organization',
-      initial: 'caz-templates'
-    },
-    {
-      name: 'features',
-      type: 'multiselect',
-      message: 'Choose the features you need',
-      instructions: false,
-      choices: [
-        { title: 'Foo', value: 'foo' },
-        { title: 'Bar', value: 'bar', selected: true }
-      ]
+      initial: 'zce'
     },
     {
       name: 'install',
@@ -98,7 +88,7 @@ module.exports = {
     if (ctx.config.install === false) {
       console.log(chalk`  $ {cyan npm install} {gray # or yarn}`)
     }
-    console.log(chalk`  $ {cyan ${ctx.config.install ? ctx.config.install : 'npm'} test}`)
+    console.log(chalk`  $ {cyan ${ctx.config.install ? ctx.config.install : 'npm'} run dev}`)
     console.log('\nHappy hacking :)\n')
   }
 }
