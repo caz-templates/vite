@@ -41,7 +41,7 @@
   "dependencies": {
     "@vue/compiler-sfc": "3.0.11",
     "vue": "3.0.11",
-    "vite": "2.1.5"
+    "vite": "2.3.7"
   },
   "devDependencies": {
     "caz": "0.6.0",
