@@ -47,7 +47,7 @@
     "vue-tsc": "0.2.2"
   },
   "devDependencies": {
-    "caz": "0.7.0",
+    "caz": "0.8.0",
     "jest": "27.0.6",
     "standard": "16.0.3"
   }
